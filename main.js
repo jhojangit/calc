@@ -1,6 +1,6 @@
 
 function write() {
-    const buttons = document.querySelectorAll('.form button');
+    const buttons = document.querySelectorAll('.form .button_calc');
     const strHTML = document.querySelector('.str')
     const equalHTML = document.querySelector('.equal')
     const totalHTML = document.querySelector('.total')
