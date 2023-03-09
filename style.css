@@ -1,0 +1,23 @@
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(188, 209, 209);
+    gap: 5rem;
+}
+
+
+.form{
+    background-color: aquamarine;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.form button{
+    height: 2rem;
+    
+}
+
